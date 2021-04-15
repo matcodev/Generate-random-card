@@ -40,4 +40,13 @@ button{
     text-align: center;
     margin-left: 48%;
     margin-top: 15px;
+    background-color: crimson;
+    border-radius:  10px;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+button :hover{
+transition: 200ms;
+background-color: darkgray ;
 }

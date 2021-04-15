@@ -19,6 +19,7 @@ let generateRandomSuite = () => {
     let suite = ['♦', '♥', '♠', '♣'];
     let iSuite = Math.floor(Math.random() * suite.length);
     colorRandom(suite[iSuite]);
+    console.log(suite[iSuite])
     document.getElementById('topSuite').innerHTML = suite[iSuite];
     document.getElementById('bottomSuite').innerHTML = suite[iSuite];
 }
